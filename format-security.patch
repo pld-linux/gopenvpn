@@ -1,0 +1,11 @@
+--- gopenvpn-gopenvpn-b4192ebb8f6c319f0e1e2e5157c87e530a587ef5/src/gopenvpn.c~	2012-03-31 20:00:58.000000000 +0200
++++ gopenvpn-gopenvpn-b4192ebb8f6c319f0e1e2e5157c87e530a587ef5/src/gopenvpn.c	2013-12-23 22:50:13.077962430 +0100
+@@ -751,7 +751,7 @@
+ 									GTK_DIALOG_DESTROY_WITH_PARENT,
+ 									GTK_MESSAGE_ERROR,
+ 									GTK_BUTTONS_OK,
+-									text);
++									"%s", text);
+ 
+ 	g_free(text);
+ 
