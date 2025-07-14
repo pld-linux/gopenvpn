@@ -35,7 +35,7 @@ to a VPN tunnel.
 
 %prep
 %setup -q -n %{name}-%{name}-%{gitcommit}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__gettextize}
